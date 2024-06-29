@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WebServiceReaderJobApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebServiceReaderJobApplication.class, args);
+        var context = SpringApplication.run(WebServiceReaderJobApplication.class, args);
+        context.close();
     }
-
 }

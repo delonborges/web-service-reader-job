@@ -8,5 +8,8 @@ spring:
     url: jdbc:mysql://localhost:3306/spring_batch?useSSL=false
 
   batch:
+    chunkSize: 40
+    pageSize: 20
+    limit: 40
     jdbc:
       initialize-schema: always
