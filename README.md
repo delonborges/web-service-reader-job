@@ -46,7 +46,6 @@ exit
 $ mysql -u username -p
 
 CREATE DATABASE spring-batch;
-CREATE DATABASE web-service-reader;
 
 exit
 ```
